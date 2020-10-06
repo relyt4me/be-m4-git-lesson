@@ -18,3 +18,5 @@ class ApplicationController < ActionController::Base
     @cart ||= Cart.new(session[:cart])
   end
 end
+
+#Another Comment
